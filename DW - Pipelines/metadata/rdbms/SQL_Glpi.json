@@ -1,0 +1,31 @@
+{
+  "rdbms": {
+    "MYSQL": {
+      "databaseName": "glpi",
+      "pluginId": "MYSQL",
+      "accessType": 0,
+      "hostname": "192.168.1.248",
+      "password": "Encrypted 2be98ebfe039ec4aee8408d54d6a4b59f",
+      "pluginName": "MySQL",
+      "port": "3306",
+      "driverClassName": "Mysql 8+",
+      "attributes": {
+        "SUPPORTS_TIMESTAMP_DATA_TYPE": "N",
+        "QUOTE_ALL_FIELDS": "N",
+        "STREAM_RESULTS": "N",
+        "EXTRA_OPTION_MYSQL.zeroDateTimeBehaviorValue": "CONVERT_TO_NULL",
+        "EXTRA_OPTION_MYSQL.useCursorFetch": "true",
+        "EXTRA_OPTION_MYSQL.defaultFetchSize": "500",
+        "SUPPORTS_BOOLEAN_DATA_TYPE": "Y",
+        "FORCE_IDENTIFIERS_TO_LOWERCASE": "N",
+        "PRESERVE_RESERVED_WORD_CASE": "Y",
+        "SQL_CONNECT": "",
+        "FORCE_IDENTIFIERS_TO_UPPERCASE": "N",
+        "PREFERRED_SCHEMA_NAME": ""
+      },
+      "manualUrl": "",
+      "username": "bi"
+    }
+  },
+  "name": "SQL_Glpi"
+}

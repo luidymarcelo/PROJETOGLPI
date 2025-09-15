@@ -1,0 +1,30 @@
+{
+  "rdbms": {
+    "MSSQLNATIVE": {
+      "databaseName": "DW_Glpi",
+      "instanceName": "MSSQLSERVER",
+      "pluginId": "MSSQLNATIVE",
+      "usingDoubleDigit": true,
+      "usingIntegratedSecurity": false,
+      "accessType": 0,
+      "hostname": "SRV-DES01",
+      "password": "Encrypted 48d3f9fbfb09c99d88fb1eff718cc2fd88",
+      "pluginName": "MS SQL Server (Native)",
+      "port": "1433",
+      "attributes": {
+        "SUPPORTS_TIMESTAMP_DATA_TYPE": "Y",
+        "QUOTE_ALL_FIELDS": "N",
+        "SUPPORTS_BOOLEAN_DATA_TYPE": "Y",
+        "FORCE_IDENTIFIERS_TO_LOWERCASE": "N",
+        "PRESERVE_RESERVED_WORD_CASE": "Y",
+        "SQL_CONNECT": "",
+        "FORCE_IDENTIFIERS_TO_UPPERCASE": "N",
+        "PREFERRED_SCHEMA_NAME": "",
+        "EXTRA_OPTION_MSSQLNATIVE.encrypt": "false"
+      },
+      "manualUrl": "jdbc:sqlserver://SRV-DES01:1433;trustServerCertificate\u003dtrue;databaseName\u003dDW_Glpi",
+      "username": "sa"
+    }
+  },
+  "name": "DW_Glpi"
+}
